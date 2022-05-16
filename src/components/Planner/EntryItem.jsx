@@ -7,7 +7,6 @@ export default function Entry({ id, title, date }) {
     Math.ceil(relativeDays),
     'days'
   );
-
   return (
     <Link to={`/entries/${id}`}>
       <li>
